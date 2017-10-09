@@ -1,0 +1,15 @@
+{
+  "name": "playing-with-hapijs",
+  "version": "1.0.0",
+  "description": "exploring hapi js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "naufal",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt2": "^7.3.0"
+  }
+}
