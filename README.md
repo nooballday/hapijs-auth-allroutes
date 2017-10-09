@@ -3,6 +3,6 @@ This project is a guidance project on how to use Hapi.js, Hapi.js auth with JWT 
 
 How to use it :
 
-clone this repository : git clone https://github.com/nooballday/hapijs-auth-allroutes.git
-install packages : npm i
+clone this repository : git clone https://github.com/nooballday/hapijs-auth-allroutes.git <br>
+install packages : npm i <br>
 running the app : node server
