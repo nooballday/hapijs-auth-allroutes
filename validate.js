@@ -4,6 +4,7 @@ var model_user = require('./model/index');
 module.exports = (decoded, request, callback) => {
     console.log(request.params.username);
     //version 1.0.2
+    //adding some features
     if(request.params.username == decoded.username){
         return callback(null, true);
     } else {
