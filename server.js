@@ -9,12 +9,12 @@ var validate = require ('./validate.js');
 // Create a server with a host and port
 const server = new Hapi.Server();
 server.connection({ 
-    host: 'localhost', 
+    host: 'localhost',
     port: 8020 
 });
 
 var secretKey = 'VeryVerySecureSecretKey';
-var obj = { id:911, 'username':'Michael Jordan'};
+var obj = { id:911, 'username':'naufal'};
 var token = JWT.sign(obj, secretKey);
 
 console.log(token);
